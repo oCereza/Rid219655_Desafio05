@@ -1,16 +1,16 @@
-## 📝 Sobre o Desafio
+##  Sobre o Desafio
 
 Este projeto foi desenvolvido como parte do **Desafio 05 da Escola DNC**, onde o objetivo era:
 
-- ✅ Desenvolver uma API completa em Node.js
-- ✅ Implementar todas as rotas CRUD (Create, Read, Update, Delete)
-- ✅ Integrar a API com um frontend React fornecido
-- ✅ Utilizar banco de dados para persistência
-- ✅ Seguir boas práticas de desenvolvimento
+-  Desenvolver uma API completa em Node.js
+-  Implementar todas as rotas CRUD (Create, Read, Update, Delete)
+-  Integrar a API com um frontend React fornecido
+-  Utilizar banco de dados para persistência
+-  Seguir boas práticas de desenvolvimento
 
 O frontend foi fornecido como base, e o foco do desafio foi na construção da API backend com arquitetura bem estruturada.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Backend (Desenvolvido)
 - **Node.js** - Runtime JavaScript
@@ -28,14 +28,10 @@ O frontend foi fornecido como base, e o foco do desafio foi na construção da A
 - npm ou yarn
 - Git
 
-## 🔧 Instalação
-
 ### 1. Clone o repositório
 
-```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_DIRETORIO>
-```
+## Como acessar
+Clone o repositório clicando no botão '<>Code'
 
 ### 2. Instale as dependências de todos os projetos
 
@@ -55,7 +51,7 @@ cd ../frontend-dnc-biblioteca
 npm install
 ```
 
-## ▶️ Executando o Projeto
+## Executando o Projeto
 
 ### Modo Desenvolvimento - Executar Backend e Frontend Simultaneamente
 
@@ -86,7 +82,7 @@ npm run start
 npm run dev:frontend
 ```
 
-## 📡 Rotas da API
+## Rotas da API
 
 ### Base URL
 ```
@@ -95,7 +91,7 @@ http://localhost:3000
 
 ### Endpoints
 
-#### 📖 Listar todos os livros
+#### Listar todos os livros
 ```http
 GET /livros
 ```
@@ -113,7 +109,7 @@ GET /livros
 ]
 ```
 
-#### 📖 Buscar livro por ID
+####  Buscar livro por ID
 ```http
 GET /livros/:id
 ```
@@ -129,7 +125,7 @@ GET /livros/:id
 }
 ```
 
-#### ➕ Cadastrar novo livro
+#### Cadastrar novo livro
 ```http
 POST /livros
 ```
@@ -144,7 +140,7 @@ POST /livros
 }
 ```
 
-#### ✏️ Atualizar livro
+#### Atualizar livro
 ```http
 PUT /livros/:id
 ```
@@ -159,7 +155,7 @@ PUT /livros/:id
 }
 ```
 
-#### 🗑️ Deletar livro
+#### Deletar livro
 ```http
 DELETE /livros/:id
 ```
@@ -178,17 +174,17 @@ A API foi desenvolvida seguindo o padrão de arquitetura em camadas:
 3. **Services** → Contém a lógica de negócio
 4. **Repositories** → Interage diretamente com o banco de dados
 
-## 🎨 Funcionalidades da API
+## Funcionalidades da API
 
-- ✅ **POST /livros** - Cadastro de novos livros (ID gerado automaticamente)
-- ✅ **GET /livros** - Listagem completa de todos os livros
-- ✅ **GET /livros/:id** - Busca de livro específico por ID
-- ✅ **PUT /livros/:id** - Atualização de informações de livros existentes
-- ✅ **DELETE /livros/:id** - Exclusão de livros do sistema
-- ✅ **CORS habilitado** - Permite integração com frontend em origem diferente
-- ✅ **Arquitetura escalável** - Separação em camadas (MVC pattern)
+-  **POST /livros** - Cadastro de novos livros (ID gerado automaticamente)
+-  **GET /livros** - Listagem completa de todos os livros
+-  **GET /livros/:id** - Busca de livro específico por ID
+-  **PUT /livros/:id** - Atualização de informações de livros existentes
+-  **DELETE /livros/:id** - Exclusão de livros do sistema
+-  **CORS habilitado** - Permite integração com frontend em origem diferente
+-  **Arquitetura escalável** - Separação em camadas (MVC pattern)
 
-## 🗄️ Banco de Dados
+## Banco de Dados
 
 O projeto utiliza SQLite com a seguinte estrutura:
 
@@ -202,7 +198,7 @@ O projeto utiliza SQLite com a seguinte estrutura:
 | ISBN | TEXT | Código ISBN (único) |
 | editorial | TEXT | Nome da editora |
 
-## 🧪 Testando a API
+## Testando a API
 
 Você pode testar a API usando ferramentas como:
 - **Insomnia**
@@ -226,7 +222,7 @@ curl -X POST http://localhost:3000/livros \
   }'
 ```
 
-## 📦 Scripts Disponíveis
+## Scripts Disponíveis
 
 ```json
 {
